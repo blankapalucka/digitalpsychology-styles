@@ -149,3 +149,14 @@ body {
   }
   
 }
+
+a.link {
+  font-size: 20px;
+  color: #1B1B1C !important;
+  padding-bottom: 5px;
+  border-color: #1B1B1C !important;
+}
+
+a.link:hover {
+  color: #C1C1C1 !important;
+}
