@@ -1,0 +1,151 @@
+
+h1.notion-heading {
+    font-size: 112px;
+    font-weight: 400;
+    letter-spacing: -7px;
+}
+
+@media only screen and (max-width: 430px) {
+  h1.notion-heading {
+    /*font-size: 60px;*/
+    /*font-weight: 400;*/
+    /*letter-spacing: -7px;*/
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 82px;
+    letter-spacing: -3px;
+  }
+  
+  .notion-callout h1.notion-heading span {
+    font-size: 32px;
+    letter-spacing: 0px;
+  }
+  
+  p.notion-text__content {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  h2.notion-heading {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue';
+    letter-spacing: -1px;
+}
+}
+
+h2.notion-heading {
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue';
+    letter-spacing: -1px;
+}
+h3.notion-heading {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue';
+    
+}
+.super-navbar__item {
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+.super-navbar__cta {
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+.notion-link {
+    /*font-weight: 400;*/
+    /*font-family: Helvetica Neue;*/
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+body {
+    font-family: 'Helvetica Neue';
+}
+.notion-divider {
+   border-color: #BDBDBD; 
+}
+.super-footer {
+    padding: 35px;
+    box-shadow: 11px 14px 10px -8px rgb(0 0 0 / 2%);
+    color: var(--footer-text-color);
+    background: #1B1B1C;
+}
+.super-footer__icons {
+    grid-area: icons;
+    display: flex;
+    padding: 4px;
+    gap: 16px;
+    color: #F2F2F2;
+}
+.super-footer__footnote {
+    grid-area: footnote;
+    font-size: 18px;
+    color: #C1C1C1;
+}
+.super-footer__links {
+    color: #848484;
+    padding: 2px;
+    font-size: 20px;
+}
+.notion-callout {
+  background: #1B1B1C !important;
+  border-radius: 8px !important;
+  text-align: left !important;
+  padding: 40px !important;
+  border: none !important;
+}
+
+.notion-callout__content {
+  margin: 0 auto !important;
+    color: #F2F2F2;
+}
+
+.notion-callout__icon {
+  display: none !important;
+  color: #F2F2F2;
+}
+
+.notion-callout h1 {
+  letter-spacing: 0px !important;
+  margin: 0 auto 8px !important;
+  font-size: 32px !important;
+  font-family: helvetica neue;
+}
+
+.notion-callout .notion-callout {
+  border-radius: 10px !important;
+  width: fit-content !important;
+  background: #000 !important;
+  margin: 0 auto !important;
+  color: #fff !important;
+  padding: 0 !important;
+}
+
+.notion-callout .notion-callout a {
+  padding: 12px 24px !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+@media (max-width: 600px) {
+  
+  .notion-callout {
+    padding: 24px !important;
+  }
+  
+  .notion-callout .notion-heading {
+    letter-spacing: 0px !important;
+    font-size: 24px !important;
+  }
+  
+}
