@@ -47,7 +47,8 @@ h2.notion-heading {
 }
 
 .super-navbar__cta{
-  display: none;
+  padding: 2px 7px;
+  font-size: 13px;
 }
 }
 
