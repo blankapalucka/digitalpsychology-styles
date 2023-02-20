@@ -45,6 +45,10 @@ h2.notion-heading {
 #block-7b5a16bcbdf24f6bab64a3188c46bf72{
   display:none;
 }
+
+.super-navbar__cta{
+  display: none;
+}
 }
 
 h2.notion-heading {
