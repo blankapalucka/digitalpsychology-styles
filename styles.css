@@ -47,8 +47,7 @@ h2.notion-heading {
 }
 
 .super-navbar__cta{
-  padding: 2px 7px;
-  font-size: 13px;
+  display: none;
 }
 }
 
@@ -80,6 +79,7 @@ h3.notion-heading {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  color: #000000;
 }
 body {
   font-family: 'Helvetica Neue';
@@ -165,13 +165,17 @@ opacity: 1 !important;
 
 a.link {
 font-size: 20px;
-color: #000 !important;
-padding-bottom: 5px;
+color: var(--color-text-default);
 border-color: #1B1B1C !important;
+padding-bottom: 5px;
 }
 
 a.link:hover {
-color: #414141 !important;
+color: #414141;
+}
+
+.notion-semantic-string .link {
+opacity: 1;
 }
 
 :root {
